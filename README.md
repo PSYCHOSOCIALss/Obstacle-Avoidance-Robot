@@ -1,16 +1,7 @@
-...Main Functions...
+> เซ็นเซอร์ Ultrasonic สามารถวัดระยะทางได้ถูกต้อง และแสดงผลผ่าน Serial Monitor
 
--Detect Obstacles
-Uses sensors like ultrasonic to sense objects in front, left, or right.
+> เมื่อพบสิ่งกีดขวางในระยะที่กำหนด หุ่นยนต์จะหยุดและเปลี่ยนทิศทางอัตโนมัติ
 
--Measure Distance
-Calculates how far an obstacle is from the robot.
+> มอเตอร์ตอบสนองได้ถูกต้องตามเงื่อนไขการตรวจจับระยะ
 
--Make Decisions
-Processes sensor data using a microcontroller like Arduino to decide what action to take.
-
--Avoid Collisions
-Stops, turns left/right, or changes direction automatically.
-
--Navigate Autonomously
-Moves without human control in unknown environments.
+> ระบบสามารถเคลื่อนที่และหลบหลีกสิ่งกีดขวางได้อย่างต่อเนื่องโดยอัตโนมัติ
